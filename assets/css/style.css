@@ -15,16 +15,26 @@ body{
     z-index: 100;
     background-color: #212529 !important;
   }
+  .sticky .nav-link, .sticky .btn.login, .sticky .btn.login > i,.sticky .register,.sticky .register > i,.sticky h3{
+      color: #fff !important;
+
+  }
+  .sticky .btn.login:hover{
+      color: #f7a422 !important;
+  }
+  .sticky .nav-link:hover{
+    color: #f7a422 !important;
+  }
 nav{
     padding:10px !important;
     background-color: #f6f6f6;
     
 }
 nav h3{
-    color: gray;
+    color: #000;
 }
 nav i{
-    color:gray !important;
+    color:#000 !important;
 }
         
 nav img{
@@ -32,7 +42,7 @@ nav img{
 }
 nav ul li a
 {
-    color:gray !important;
+    color:#000 !important;
     
 }
 nav ul li a:hover
@@ -41,13 +51,13 @@ nav ul li a:hover
 }
 
 nav form button{
-    color:gray !important;
+    color:#000 !important;
     border:1px solid #f7a422 !important;
     width:120px;
     margin-right:10px;
 }
 nav form button i{
-    color:gray;
+    color:#000;
     padding-right:5px;
 }
 /*navbar register */
@@ -80,7 +90,7 @@ nav form .register:hover{
 
 /*coin start*/
 .carousel-indicators button{
-    border: 1px solid gray !important;
+    border: 1px solid #808080!important;
     border-radius: 20px;
 }
 .carousel-indicators{
@@ -118,13 +128,13 @@ nav form .register:hover{
 .card-body a{
     border: none;
     background-color: #f7a422;
-    color: white;
+    color: #fff;
     height: 40px;
     border-radius: 50px;
     font-size: 14px;
 }
 .card-body a:hover{
-    background-color: white;
+    background-color: #fff;
     border: 1px solid #f7a422;
     color: #f7a422;
 }
@@ -136,7 +146,7 @@ hr{
 
 /*application start*/
 .application {
-    color: white;
+    color: #fff;
 }
 .application h1{
     padding: 0 !important;
@@ -147,11 +157,11 @@ hr{
     align-items: center;
 }
 .apple_button{
-    border: 1px solid gray;
+    border: 1px solid #808080;
     font-size: 12px !important;
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: #808080;
 }
 .application form{
     display: flex;
@@ -184,12 +194,12 @@ hr{
 }
 .contact a {
     text-decoration: none;
-    color: black;
+    color: #000;
 }
 /* contact end*/
 /*footer start*/
 footer a p{
-    color: white;
+    color: #fff;
     opacity: 0.4;
 }
 footer a p:hover{
@@ -200,7 +210,7 @@ footer a{
 }
 footer i{
     margin-right: 6px;
-    color: white;
+    color: #fff;
     opacity: 0.4;
 }
 footer i:hover{
