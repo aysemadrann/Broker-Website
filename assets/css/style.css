@@ -1,0 +1,245 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+ /* navbar start*/
+ #nav{
+    overflow: hidden;
+ }
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #212529 !important;
+  }
+nav{
+    padding:10px !important;
+    background-color: #f6f6f6;
+    
+}
+nav h3{
+    color: gray;
+}
+nav i{
+    color:gray !important;
+}
+        
+nav img{
+    width:120px;
+}
+nav ul li a
+{
+    color:gray !important;
+    
+}
+nav ul li a:hover
+{
+    color:#f7a422 !important;
+}
+
+nav form button{
+    color:gray !important;
+    border:1px solid #f7a422 !important;
+    width:120px;
+    margin-right:10px;
+}
+nav form button i{
+    color:gray;
+    padding-right:5px;
+}
+/*navbar register */
+
+nav form .register:hover{
+    background-color:#f7a422;
+}
+/*navbar login */
+.login{
+    border: none !important;
+}
+.login:hover{
+    color: #f7a422 !important;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_color{
+    background-color: #f6f6f6;
+
+
+}
+.telephone{
+    margin-top: 30px;
+}
+/*navbar end */
+
+/*coin start*/
+.carousel-indicators button{
+    border: 1px solid gray !important;
+    border-radius: 20px;
+}
+.carousel-indicators{
+    margin-bottom: 0 !important;
+}
+.carousel-item .card{
+    border-radius: 20px;
+    box-shadow: -2px 1px 10px -4px #c5c2c2;
+}
+.carousel-item .card i{
+    color: #f7a422;
+}
+.carousel-item .card .card-title,.card-text{
+    font-weight: bolder;
+    font-size: 15px !important;
+}
+.carousel-item .card:hover{
+    box-shadow: -2px 1px 20px -4px #c5c2c2;
+}
+.coin_end{
+    margin-bottom: 60px;
+}
+/*coin end*/
+
+/*chart start*/
+.chart .card{
+    border: none;
+    box-shadow: -2px 1px 20px -4px #c5c2c2;
+    border-radius: 15px;
+}
+.chart .card .card-text{
+    font-weight: 100;
+    font-size: 12px !important;
+}
+.card-body a{
+    border: none;
+    background-color: #f7a422;
+    color: white;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.card-body a:hover{
+    background-color: white;
+    border: 1px solid #f7a422;
+    color: #f7a422;
+}
+hr{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/*chart end*/
+
+/*application start*/
+.application {
+    color: white;
+}
+.application h1{
+    padding: 0 !important;
+}
+.mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apple_button{
+    border: 1px solid gray;
+    font-size: 12px !important;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+.application form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.apple_button:hover{
+    background-color: rgb(112, 109, 109);
+}
+/*application end*/
+
+/*contact start*/
+.contact_one:hover{
+    color: rgb(153, 153, 53) !important;
+}
+.contact_two:hover{
+    color: #1da1f2 !important;
+}
+.contact_three:hover{
+    color: #1877f2 !important;
+}
+.contact_four:hover{
+    color: #27a7e8 !important;
+}
+.contact_five:hover{
+    color: #ff0000 !important;
+}
+.contact_six:hover{
+    color: #b230a2 !important;
+}
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+/* contact end*/
+/*footer start*/
+footer a p{
+    color: white;
+    opacity: 0.4;
+}
+footer a p:hover{
+    opacity: 1 !important;
+}
+footer a{
+    text-decoration: none;
+}
+footer i{
+    margin-right: 6px;
+    color: white;
+    opacity: 0.4;
+}
+footer i:hover{
+    opacity: 1;
+}
+/*footer end*/
+/*media start*/
+
+@media screen and (max-width:786px) {
+    .bg_color h1,p{
+        text-align: center;
+    }
+   .coin_mobile{
+       margin-bottom: 30px;
+   }
+   .chart_mobile{
+       margin-bottom: 40px;
+   }
+   .application img{
+       width: 100% !important;
+   }
+   .application h5{
+       margin-top: 40px;
+   }
+footer h6,p{
+    text-align:center ;
+}
+
+footer a i{
+    width: 100% !important;
+    text-align: center;
+}
+.coin_end{
+    margin-bottom: 80px;
+}
+.apple_button{
+    flex: 20% !important;
+    
+}
+
+}
+
