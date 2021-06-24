@@ -173,7 +173,7 @@ hr{
 
 /*contact start*/
 .contact_one:hover{
-    color: rgb(153, 153, 53) !important;
+    color: rgb(238, 92, 8) !important;
 }
 .contact_two:hover{
     color: #1da1f2 !important;
@@ -223,6 +223,7 @@ footer i:hover{
 @media (min-width: 1281px) {
   
     /* CSS */
+   
     
   }
   
@@ -245,6 +246,11 @@ footer i:hover{
     footer h6,p{
     text-align:center ;
 }
+.bg_color .center{
+    margin-right: -60px;
+}
+
+
   }
   
   /* 
@@ -287,8 +293,10 @@ footer a i{
     width: 140px;
     
 }
+.bg_color .center{
+    margin-right: -60px;
+}
 
-    
   }
   
   /* 
@@ -337,7 +345,11 @@ footer a i{
     justify-content: center;
 }
 
-    
+.navbar-toggler-icon{
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
   }
   
   /* 
@@ -361,27 +373,30 @@ footer a i{
    }
    .application h1,p{
     text-align: center;
-}
+   }
    .application h5{
        margin-top: 40px;
    }
-footer h6,p{
+    footer h6,p{
     text-align:center ;
-}
+   }
 
-footer a i{
+    footer a i{
     width: 100% !important;
     text-align: center;
-}
-.coin_end{
+   }
+   .coin_end{
     margin-bottom: 80px;
-}
-.apple_button{
+   }
+   .apple_button{
     width: 140px;
     
-}
+   }
+footer .top{
 
-    
+    margin-top: 30px;
+}
+   
   }
   
   /* 
@@ -423,5 +438,9 @@ footer a i{
 .apple_button{
     width: 140px;
     
+}
+footer .top{
+
+    margin-top: 30px;
 }
   }
