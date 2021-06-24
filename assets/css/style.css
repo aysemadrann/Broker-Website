@@ -215,9 +215,45 @@ footer i:hover{
     opacity: 1;
 }
 /*footer end*/
-/*media 786px start*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-@media screen and (max-width:768px) {
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+    .bg_color h1,p{
+        text-align: center;
+    }
+    .apple_button{
+        width: 140px;
+    }
+    .application h1,p{
+        text-align: center;
+    }
+    footer h6,p{
+    text-align:center ;
+}
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
     .bg_color h1,p{
         text-align: center;
     }
@@ -229,6 +265,54 @@ footer i:hover{
    }
    .application img{
        width: 100% !important;
+   }
+   .application h5{
+       margin-top: 40px;
+   }
+   .application h1,p{
+    text-align: center;
+}
+footer h6,p{
+    text-align:center ;
+}
+
+footer a i{
+    width: 100% !important;
+    text-align: center;
+}
+.coin_end{
+    margin-bottom: 80px;
+}
+.apple_button{
+    width: 140px;
+    
+}
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .bg_color h1,p{
+        text-align: center;
+    }
+   .coin_mobile{
+       margin-bottom: 30px;
+   }
+   .chart_mobile{
+       margin-bottom: 40px;
+   }
+   .application img{
+       width: 100% !important;
+    
+   }
+   .application h1,p{
+       text-align: center;
    }
    .application h5{
        margin-top: 40px;
@@ -245,21 +329,24 @@ footer a i{
     margin-bottom: 80px;
 }
 .apple_button{
-    flex: 20% !important;
+    width: 140px;
     
 }
-
-
+.application form{
+    display: flex;
+    justify-content: center;
 }
-@media screen and (max-width:1024px) {
-    .application form button{
-        flex: 20% !important;
-        margin-right: 10px !important;
-    }
-    .telephone{
-        width: 50% !important;
-        
-    }
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
     .bg_color h1,p{
         text-align: center;
     }
@@ -267,17 +354,21 @@ footer a i{
        margin-bottom: 30px;
    }
    .chart_mobile{
-       margin-bottom: 40px;       
+       margin-bottom: 40px;
    }
    .application img{
        width: 100% !important;
    }
+   .application h1,p{
+    text-align: center;
+}
    .application h5{
        margin-top: 40px;
    }
 footer h6,p{
     text-align:center ;
 }
+
 footer a i{
     width: 100% !important;
     text-align: center;
@@ -285,6 +376,52 @@ footer a i{
 .coin_end{
     margin-bottom: 80px;
 }
-
-
+.apple_button{
+    width: 140px;
+    
 }
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .bg_color h1,p{
+        text-align: center;
+    }
+   .coin_mobile{
+       margin-bottom: 30px;
+   }
+   .chart_mobile{
+       margin-bottom: 40px;
+   }
+   .application img{
+       width: 100% !important;
+   }
+   .application h1,p{
+    text-align: center;
+}
+   .application h5{
+       margin-top: 40px;
+   }
+footer h6,p{
+    text-align:center ;
+}
+
+footer a i{
+    width: 100% !important;
+    text-align: center;
+}
+.coin_end{
+    margin-bottom: 80px;
+}
+.apple_button{
+    width: 140px;
+    
+}
+  }
