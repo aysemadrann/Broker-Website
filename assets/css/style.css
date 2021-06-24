@@ -80,8 +80,6 @@ nav form .register:hover{
 
 .bg_color{
     background-color: #f6f6f6;
-
-
 }
 
 /*navbar end */
@@ -245,11 +243,10 @@ footer i:hover{
     }
     footer h6,p{
     text-align:center ;
-}
-.bg_color .center{
+    }
+    .bg_color .center{
     margin-right: -60px;
 }
-
 
   }
   
@@ -277,26 +274,35 @@ footer i:hover{
    }
    .application h1,p{
     text-align: center;
-}
-footer h6,p{
+   }
+   footer h6,p{
     text-align:center ;
-}
+   }
 
-footer a i{
+   footer a i{
     width: 100% !important;
     text-align: center;
-}
-.coin_end{
+   }
+   .coin_end{
     margin-bottom: 80px;
-}
-.apple_button{
+   }
+   .apple_button{
     width: 140px;
     
-}
-.bg_color .center{
+   }
+   .bg_color .center{
     margin-right: -60px;
+   }
+   .navbar .container-fluid{
+    padding: 0 !important;
+    margin: 0 !important;
 }
-
+.navbar-toggler{
+    padding: 0 !important;
+}
+.navbar-toggler-icon{
+    padding: 0 !important;
+}
   }
   
   /* 
@@ -325,31 +331,36 @@ footer a i{
    .application h5{
        margin-top: 40px;
    }
-footer h6,p{
+   footer h6,p{
     text-align:center ;
-}
+   }
 
-footer a i{
+   footer a i{
     width: 100% !important;
     text-align: center;
-}
-.coin_end{
+   }
+   .coin_end{
     margin-bottom: 80px;
-}
-.apple_button{
+   }
+   .apple_button{
     width: 140px;
-    
-}
-.application form{
+  }
+  .application form{
     display: flex;
     justify-content: center;
-}
+  }
 
+
+   .navbar .container-fluid{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.navbar-toggler{
+    padding: 0 !important;
+}
 .navbar-toggler-icon{
-    margin-right: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
 }
-
   }
   
   /* 
@@ -392,11 +403,20 @@ footer a i{
     width: 140px;
     
    }
-footer .top{
+   footer .top{
 
     margin-top: 30px;
+   }
+  .navbar .container-fluid{
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+  .navbar-toggler{
+    padding: 0 !important;
 }
-   
+.navbar-toggler-icon{
+    padding: 0 !important;
+}
   }
   
   /* 
@@ -420,27 +440,38 @@ footer .top{
    }
    .application h1,p{
     text-align: center;
-}
+   }
    .application h5{
        margin-top: 40px;
    }
-footer h6,p{
+   footer h6,p{
     text-align:center ;
-}
+   }
 
-footer a i{
+   footer a i{
     width: 100% !important;
     text-align: center;
-}
-.coin_end{
+   }
+  .coin_end{
     margin-bottom: 80px;
-}
-.apple_button{
+   }
+   .apple_button{
     width: 140px;
     
-}
-footer .top{
+   }
+   footer .top{
 
     margin-top: 30px;
+   }
+   .navbar .container-fluid{
+    padding: 0 !important;
+    margin: 0 !important;
 }
+.navbar-toggler{
+    padding: 0 !important;
+}
+.navbar-toggler-icon{
+    padding: 0 !important;
+}
+
   }
